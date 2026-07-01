@@ -1,4 +1,4 @@
-const isPalindrome = (x)=>{
+const romanToInt = (x)=>{
     if(x<0){
         return false
     }
