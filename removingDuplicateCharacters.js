@@ -5,5 +5,4 @@ function processData(input) {
     }
     console.log(result)
 } 
-
 processData('programming')

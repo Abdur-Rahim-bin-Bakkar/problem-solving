@@ -18,5 +18,4 @@ function processData(input) {
 
     console.log("Equal")
 }
-
 processData("40 40 40")
