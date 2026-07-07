@@ -1,4 +1,4 @@
-function processData(a, b) {
+function processData(input) {
     const [a, b] = input.trim().split(" ").map(Number);
     if (a > b) {
         console.log(a)
@@ -13,6 +13,6 @@ function processData(a, b) {
     }
 }
 
-processData(1, 2)
-processData(20, 40)
-processData(40, 40)
+processData("1 2")
+processData("20 40")
+processData("40 40")
